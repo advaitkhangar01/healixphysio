@@ -1,6 +1,7 @@
 import React from 'react'
 import { Facebook, Instagram, MessageCircle, Linkedin, MapPin, Phone, Mail } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="Healix Physio" className="h-10 brightness-0 invert" />
+              <img src={logo} alt="Healix Physio" className="h-10 brightness-0 invert" />
               <div>
                 <span className="text-xl font-heading font-bold block leading-none">Healix</span>
                 <span className="text-[10px] tracking-[0.2em] font-bold text-white/50 uppercase">Physio</span>

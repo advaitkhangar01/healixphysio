@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Phone, Menu, X, MessageSquare } from 'lucide-react'
 import { Link, useLocation } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -24,7 +25,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src="/logo.png" alt="Healix Physio" className="h-16 md:h-20" />
+          <img src={logo} alt="Healix Physio" className="h-16 md:h-20" />
         </Link>
 
 
