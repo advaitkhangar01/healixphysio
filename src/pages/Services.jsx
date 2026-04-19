@@ -94,7 +94,7 @@ const Services = () => {
               approaches for every condition.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/#contact" className="btn-primary py-3 px-8 text-lg">
+              <Link to="/contact" className="btn-primary py-3 px-8 text-lg">
                 Book a Session
               </Link>
               <div className="flex items-center gap-2 text-gray-500 font-medium">

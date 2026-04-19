@@ -6,6 +6,7 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Articles from './pages/Articles'
 import Article from './pages/Article'
+import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/article/:id" element={<Article />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

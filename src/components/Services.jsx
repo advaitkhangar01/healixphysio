@@ -52,7 +52,7 @@ const Services = () => {
                 <p className="text-gray-600 mb-8 flex-grow leading-relaxed">
                   {service.description}
                 </p>
-                <Link to="/#contact" className="flex items-center gap-2 text-primary font-bold group/link">
+                <Link to="/contact" className="flex items-center gap-2 text-primary font-bold group/link">
                   Book Now
                   <ChevronRight size={18} className="group-hover/link:translate-x-1 transition-transform" />
                 </Link>

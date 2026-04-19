@@ -298,7 +298,7 @@ const Article = () => {
               Don't let pain hold you back. Our certified experts are ready to assist you via home visit or online consultation today.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/#contact" className="bg-white text-primary font-bold py-4 px-8 rounded-2xl hover:bg-gray-100 transition-colors shadow-lg">
+              <Link to="/contact" className="bg-white text-primary font-bold py-4 px-8 rounded-2xl hover:bg-gray-100 transition-colors shadow-lg">
                 Book Expert Assessment
               </Link>
               <a href="tel:+919970936454" className="bg-white/10 text-white border border-white/20 font-bold py-4 px-8 rounded-2xl hover:bg-white/20 transition-colors">

@@ -59,7 +59,7 @@ const Navbar = () => {
             <Phone size={18} />
             <span>+91 99709 36454</span>
           </a>
-          <Link to="/#contact" className="btn-primary py-2 px-6">
+          <Link to="/contact" className="btn-primary py-2 px-6">
             Book Appointment
           </Link>
         </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
             <MessageSquare size={20} />
             <span>WhatsApp Us</span>
           </a>
-          <Link to="/#contact" className="btn-primary text-center" onClick={() => setIsMobileMenuOpen(false)}>
+          <Link to="/contact" className="btn-primary text-center" onClick={() => setIsMobileMenuOpen(false)}>
             Book Appointment
           </Link>
         </div>

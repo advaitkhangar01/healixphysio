@@ -159,7 +159,7 @@ const About = () => {
             
             <div className="mt-16 inline-flex flex-col items-center">
               <p className="text-lg text-gray-500 mb-8 italic">"We believe the best clinic is the one that comes to you."</p>
-              <Link to="/#contact" className="btn-primary">Book Your Session Today</Link>
+              <Link to="/contact" className="btn-primary">Book Your Session Today</Link>
             </div>
           </div>
         </div>

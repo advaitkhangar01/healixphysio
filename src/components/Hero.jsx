@@ -33,7 +33,7 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
-              <Link to="/#contact" className="btn-primary group w-full sm:w-auto flex items-center justify-center gap-2">
+              <Link to="/contact" className="btn-primary group w-full sm:w-auto flex items-center justify-center gap-2">
                 Book Home Visit 
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </Link>
