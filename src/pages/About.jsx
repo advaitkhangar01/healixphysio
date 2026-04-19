@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Target, Users, Zap, ShieldCheck, HeartPulse, Laptop, Home as HomeIcon, CheckCircle2 } from 'lucide-react'
 import Doctors from '../components/Doctors'
@@ -158,7 +159,7 @@ const About = () => {
             
             <div className="mt-16 inline-flex flex-col items-center">
               <p className="text-lg text-gray-500 mb-8 italic">"We believe the best clinic is the one that comes to you."</p>
-              <a href="#contact" className="btn-primary">Book Your Session Today</a>
+              <Link to="/#contact" className="btn-primary">Book Your Session Today</Link>
             </div>
           </div>
         </div>

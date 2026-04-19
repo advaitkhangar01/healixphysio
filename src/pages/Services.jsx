@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { 
   Activity, 
   Dumbbell, 
@@ -93,9 +94,9 @@ const Services = () => {
               approaches for every condition.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="#contact" className="btn-primary py-3 px-8 text-lg">
+              <Link to="/#contact" className="btn-primary py-3 px-8 text-lg">
                 Book a Session
-              </a>
+              </Link>
               <div className="flex items-center gap-2 text-gray-500 font-medium">
                 <ShieldCheck className="text-primary" size={20} />
                 <span>Certified Experts</span>
