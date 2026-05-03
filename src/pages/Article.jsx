@@ -8,7 +8,7 @@ import backPain from '../assets/images/articles/back-pain.png'
 import aclRecovery from '../assets/images/articles/acl-recovery.png'
 import ergonomics from '../assets/images/articles/ergonomics.png'
 import arthritis from '../assets/images/articles/arthritis.png'
-import pediatric from '../assets/images/articles/pediatric.png'
+
 import neuroRehab from '../assets/images/articles/neuro-rehab.png'
 import physioConsult from '../assets/images/articles/physio-consult.png'
 import surgeryRecovery from '../assets/images/articles/surgery-recovery.png'
@@ -113,28 +113,7 @@ const ARTICLES = {
       </div>
     )
   },
-  'pediatric-posture': {
-    title: 'Identifying Postural Issues in Growing Children',
-    category: 'Pediatrics',
-    date: 'Mar 20, 2026',
-    author: 'Pediatric Specialist',
-    readTime: '5 min read',
-    image: pediatric,
-    content: (
-      <div className="space-y-8">
-        <p className="text-xl leading-relaxed text-gray-700">
-          Early detection of postural abnormalities in children can prevent complex orthopedic issues during their teenage years.
-        </p>
-        <h4 className="font-bold text-lg">Signs to Watch For:</h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-4 bg-red-50 rounded-xl text-red-700 border-l-4 border-red-400">Uneven shoulders or hips</div>
-          <div className="p-4 bg-orange-50 rounded-xl text-orange-700 border-l-4 border-orange-400">Walking on toes frequently</div>
-          <div className="p-4 bg-blue-50 rounded-xl text-blue-700 border-l-4 border-blue-400">Regular "W-sitting" position</div>
-          <div className="p-4 bg-green-50 rounded-xl text-green-700 border-l-4 border-green-400">Persistent growing pains</div>
-        </div>
-      </div>
-    )
-  },
+
   'neuroplasticity-rehab': {
     title: 'The Power of Neuroplasticity in Stroke Recovery',
     category: 'Neuro Rehab',

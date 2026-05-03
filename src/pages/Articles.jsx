@@ -16,7 +16,7 @@ import backPain from '../assets/images/articles/back-pain.png'
 import aclRecovery from '../assets/images/articles/acl-recovery.png'
 import ergonomics from '../assets/images/articles/ergonomics.png'
 import arthritis from '../assets/images/articles/arthritis.png'
-import pediatric from '../assets/images/articles/pediatric.png'
+
 import neuroRehab from '../assets/images/articles/neuro-rehab.png'
 import physioConsult from '../assets/images/articles/physio-consult.png'
 import surgeryRecovery from '../assets/images/articles/surgery-recovery.png'
@@ -58,15 +58,7 @@ const articles = [
     readTime: '6 min read',
     image: arthritis
   },
-  {
-    id: 'pediatric-posture',
-    title: 'Identifying Postural Issues in Growing Children',
-    excerpt: 'Key signs parents should look for to ensure healthy musculoskeletal development in kids.',
-    category: 'Pediatrics',
-    date: 'Mar 20, 2026',
-    readTime: '5 min read',
-    image: pediatric
-  },
+
   {
     id: 'neuroplasticity-rehab',
     title: 'The Power of Neuroplasticity in Stroke Recovery',
@@ -96,7 +88,7 @@ const articles = [
   }
 ]
 
-const categories = ['All', 'Expert Advice', 'Sports Medicine', 'Wellness', 'Geriatric Care', 'Pediatrics', 'Neuro Rehab']
+const categories = ['All', 'Expert Advice', 'Sports Medicine', 'Wellness', 'Geriatric Care', 'Neuro Rehab']
 
 const Articles = () => {
   const [activeCategory, setActiveCategory] = useState('All')
