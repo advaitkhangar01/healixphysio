@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className="bg-white/10 p-3 rounded-lg"><MapPin size={24} /></div>
                     <div>
                       <div className="font-bold text-lg text-secondary">Nagpur, India</div>
-                      <div className="text-white/60 text-sm">Serving all major areas including Dharampeth, Manish Nagar, etc.</div>
+                      <div className="text-white/60 text-sm">Serving major areas including Sadar, Godhani, Mankapur, Jaripatka, Sitabuldi, etc.</div>
                     </div>
                   </div>
                 </div>

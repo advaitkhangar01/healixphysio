@@ -6,7 +6,7 @@ const doctors = [
   {
     name: 'Dr. Anisha',
     role: 'Lead Physiotherapist',
-    desc: 'Specialist in Sports Recovery & Post-Rehab',
+    desc: 'Specialist in Sports Recovery, Post-Rehab & Certified Pilates Instructor',
     exp: '8+ Years Exp',
     rating: '4.9'
   }

@@ -53,6 +53,10 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle size={20} className="text-secondary" />
+                <span className="font-semibold">Certified Pilates Instructor</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle size={20} className="text-secondary" />
                 <span className="font-semibold">Modern Rehab</span>
               </div>
             </div>

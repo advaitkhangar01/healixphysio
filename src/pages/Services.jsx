@@ -36,12 +36,7 @@ const services = [
     description: "Comprehensive therapy for conditions affecting the nervous system, improving mobility and independence.",
     details: ["Stroke Recovery", "Parkinson's Care", "MS Management"]
   },
-  {
-    icon: <Baby className="text-primary" size={32} />,
-    title: "Pediatric Physiotherapy",
-    description: "Gentle and effective therapy tailored for children to support their growth and developmental milestones.",
-    details: ["Developmental Delays", "Postural Correction", "Congenital Issues"]
-  },
+
   {
     icon: <UserPlus className="text-primary" size={32} />,
     title: "Geriatric Physiotherapy",

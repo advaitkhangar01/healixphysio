@@ -64,14 +64,14 @@ const Contact = () => {
       <section className="py-24 bg-medical-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="bg-white rounded-[3rem] p-12 shadow-premium text-center">
+            {/* Updated service locations: Sadar, Godhani, Mankapur, Jaripatka, Sitabuldi */}
             <h3 className="text-3xl font-heading font-bold mb-8">Serving All Of Nagpur</h3>
             <div className="flex flex-wrap justify-center gap-4 text-gray-500 font-medium">
-              <span className="bg-gray-100 px-4 py-2 rounded-full">Dharampeth</span>
-              <span className="bg-gray-100 px-4 py-2 rounded-full">Manish Nagar</span>
-              <span className="bg-gray-100 px-4 py-2 rounded-full">Ramdaspeth</span>
-              <span className="bg-gray-100 px-4 py-2 rounded-full">Civil Lines</span>
-              <span className="bg-gray-100 px-4 py-2 rounded-full">Jamtha</span>
-              <span className="bg-gray-100 px-4 py-2 rounded-full">Wardha Road</span>
+              <span className="bg-gray-100 px-4 py-2 rounded-full">Sadar</span>
+              <span className="bg-gray-100 px-4 py-2 rounded-full">Godhani</span>
+              <span className="bg-gray-100 px-4 py-2 rounded-full">Mankapur</span>
+              <span className="bg-gray-100 px-4 py-2 rounded-full">Jaripatka</span>
+              <span className="bg-gray-100 px-4 py-2 rounded-full">Sitabuldi</span>
             </div>
           </div>
         </div>
